@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Raleway", sans-serif;
+    background: #ff9c70;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+}
+.login-form{
+    max-width: 450px;
+    background: white;
+    margin: auto;
+    border-radius: 30px;
+    padding: 30px 45px;
+    position: relative;
+}
+.login-form .form-input,
+.login-form textarea
+{
+    width: 100%;
+    background: #e9eff8;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.form-title{
+    margin: 18px auto;
+    font-weight: lighter;
+    font-size: 28px;
+}
+.login-form .form-input,
+h2{
+    margin: 10px auto;
+}
+.login-form button{
+    width: 100%;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px; background: #ff9c70;
+    border: none;
+    border-bottom: 2px solid #904b08;
+    padding: 15px 0;
+    margin: 15px auto 35px auto ;
+    color: ghostwhite;
+    font-weight: bolder;
+    cursor: pointer;
+}
+h2{
+    color: #6e6e6e;
+}
+.white-1{
+    width: 70px;
+    height: 20px;
+    border-radius: 30px;
+    position: absolute;
+    background: white;
+    top: 35px;
+    right: -30px;
+}
+.orange-1{
+    width: 65px;
+    height: 20px;
+    border-radius: 30px;
+    position: absolute;
+    background: #ff9c70;
+    top: 55px;
+    right: -40px;
+}
+.white-2{
+    width: 70px;
+    height: 20px;
+    border-radius: 30px;
+    position: absolute;
+    background: white;
+    top: 75px;
+    right: -22px;
+}
+.white-3{
+    width: 70px;
+    height: 20px;
+    border-radius: 30px;
+    position: absolute;
+    background: white;
+   bottom: 45px;
+    left: -25px;
+}
+.orange-2{
+    width: 65px;
+    height: 20px;
+    border-radius: 30px;
+    position: absolute;
+    background: #ff9c70;
+    bottom: 65px;
+    left: -40px;
+}
+.white-4{
+    width: 70px;
+    height: 20px;
+    border-radius: 30px;
+    position: absolute;
+    background: white;
+    bottom: 85px;
+    left: -35px;
+}
+.white-circle{
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 85px;
+    left: -60px;
+
+}
